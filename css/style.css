@@ -1,0 +1,448 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* --- --- HEADER --- --- */
+
+header{
+    background:url('/img/fondo.png') rgb(100, 61, 53);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 450px;
+}
+
+header .menu{
+    margin: 40px 0;
+    text-align: right;
+}
+
+header .menu a{
+    margin: 0 20px;
+    color: whitesmoke;
+    padding-bottom: 9px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-size: 1em;
+}
+
+header .menu a:hover{
+    border-bottom: 2px solid whitesmoke;
+}
+
+header .contenedor-texto{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 55px;
+    margin-bottom: 125px;
+}
+
+header .contenedor-texto .texto{
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 60px;
+    text-align: center;
+}
+
+header .contenedor-texto .texto h1{
+    color: white;
+    margin: 5px 0;
+}
+
+header .contenedor-texto .texto h2{
+    color: whitesmoke;
+    font-weight:lighter;
+    margin: 0;
+}
+
+header .contenedor-texto .texto nombre{
+    margin-bottom: 10px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+header .contenedor-texto .texto .profesion{
+    font-size: 25px;
+    line-break: 25px;
+}
+
+/* --- --- MAIN --- --- */
+.main .contenedor{
+    overflow: visible;
+}
+
+.main .acerca-de{
+    text-align: center;
+}
+
+.main .acerca-de .foto{
+    margin-top: -80px;
+}
+
+.main .acerca-de .foto img{
+    vertical-align: top;
+    border-radius: 50%;
+    border: 10px solid rgba(255, 255, 255, 0.2)
+}
+
+.main .acerca-de .texto{
+    color: #643E35;
+    font-size: 1em;
+    line-height: 30px ;
+    width: 80%;
+    margin: 25px auto;
+}
+
+.main .acerca-de .contenedor .texto .titulo{
+    color: #c02d2d;
+    font-size: 34px;
+    font-weight:lighter;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main .trabajos {
+    background: rgba(192, 45, 45, 0.1);
+    padding: 25px;
+}
+
+.main .trabajos .contenedor{
+    overflow: hidden;
+}
+
+.main .trabajos .titulo{
+    color: rgb(192, 45, 45);
+    font-size: 34px;
+    font-weight:lighter;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main .trabajos .contenedor-proyectos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .trabajos .contenedor-proyectos .proyecto{
+    width: 23%;
+    margin-bottom: 40px;
+}
+
+.main .trabajos .contenedor-proyectos .proyecto .thumb{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.main .trabajos .contenedor-proyectos .proyecto .thumb img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+.main .trabajos .contenedor-proyectos .proyecto .descripcion{
+    text-align: center;
+}
+
+.main .trabajos .contenedor-proyectos .proyecto .descripcion .nombre-proyecto{
+    font-weight: bolder;
+    color: #c02d2d;
+}
+
+.main .trabajos .contenedor-proyectos .proyecto .descripcion .categoria{
+    font-size: 14px;
+    color: gray;
+}
+
+.main .trabajos .contenedor-proyectos .proyecto .descripcion button{
+    background: gray;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight:lighter;
+}
+
+.main .trabajos .contenedor-proyectos .proyecto .descripcion a{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+}
+
+.main .trabajos .contenedor-proyectos .proyecto .descripcion i{
+    color: gray;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+
+/* --- --- HABILIDADES --- --- */
+
+.main .habilidades {
+    background: white;
+    padding: 25px 0;
+    padding-bottom: 60px;
+}
+
+.main .habilidades .contenedor{
+    overflow: hidden;
+}
+
+.main .habilidades .titulo{
+    color: rgb(192, 45, 45);
+    font-size: 34px;
+    font-weight:lighter;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main .habilidades .contenedor-habilidades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.main .habilidades .contenedor-habilidades .habilidad{
+    width: 12%;
+    padding: 0px 15px;
+}
+
+.main .habilidades .contenedor-habilidades .habilidad .thumb{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.main .habilidades .contenedor-habilidades .habilidad .thumb img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+.main .habilidades .contenedor-habilidades .habilidad .descripcion{
+    text-align: center;
+}
+
+.main .habilidades .contenedor-habilidades .habilidad .descripcion .nombre-proyecto{
+    font-weight: bolder;
+    color: #c02d2d;
+}
+
+.main .habilidades .contenedor-habilidades .habilidad .descripcion .categoria{
+    font-size: 14px;
+    color: gray;
+}
+
+/* --- --- FOOTER --- --- */
+footer{
+    background:  rgba(100, 61, 53, 0.1);
+}
+
+footer .contenedor{
+    width: 60%;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+footer .contacto{
+    padding: 25px 0px;
+}
+
+footer .contacto .titulo{
+    color: rgb(192, 45, 45);
+    font-size: 34px;
+    font-weight:lighter;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+footer .contacto .formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .contacto .formulario input[type="text"], input[type="email"], textarea{
+    border: 2px solid rgba(206, 206, 206, 1);
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color:#643E35;
+}
+
+
+footer .contacto .formulario input[type="text"], input[type="email"]{
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+footer .contacto .formulario textarea{
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+
+footer .contacto .formulario .boton{
+    margin: auto;
+    background: rgb(192, 45, 45);
+    color: cornsilk;
+    border:none;
+    border-radius: 25px;
+    padding: 15px 50px;
+    cursor: pointer;
+    border: 1px solid rgb(192, 45, 45);
+}
+
+footer .contacto .formulario .boton:hover{
+    transition: 0.5s;
+    background:rgba(192, 45, 45, 0.1);
+    border: 1px solid rgb(192, 45, 45);
+    color: rgb(192, 45, 45) ;
+}
+
+
+footer .redes-sociales{
+    background: rgba(90, 90, 90, 1);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+
+footer .redes-sociales a{
+    color: whitesmoke;
+    text-align: center;
+    width: 60px;
+    display: block;
+    padding: 5px 0;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 0 5px;
+}
+
+footer .redes-sociales a.facebook:hover{
+    transition: .7s;
+    background: #067AEA;
+}
+
+footer .redes-sociales a.twitter:hover{
+    transition: .7s;
+    background: #00acee;
+}
+
+footer .redes-sociales a.linkedin:hover{
+    transition: .7s;
+    background: #0072b1;
+}
+
+footer .redes-sociales a.github:hover{
+    transition: .7s;
+    background: #171515;
+}
+
+footer .redes-sociales a.i{
+    text-align: center;
+    margin: auto;
+}
+
+footer .text{
+    background: rgba(90, 90, 90, 1); 
+    padding:0;
+    margin: 0px 0;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: lighter;
+}
+
+footer .info{
+    background: rgba(90, 90, 90, 1);
+    width:100% ;
+    padding: 1px 0;
+    margin: 0px 0;
+    text-align: left;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+/* --- --- MEDIA QUERIES --- --- */
+@media screen and (max-width: 800px){
+    header .menu{
+        text-align: center;
+    }
+
+    .main .trabajos  .contenedor-proyectos .proyecto{
+        width: 46%;
+    }
+
+    .main .habilidades .contenedor-habilidades .habilidad{
+        width: 20%;
+        padding: 0px 15px;
+    }
+
+    footer .contenedor{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    header .menu {
+        text-align: center;
+        display: grid;
+    }
+
+    header .contenedor-texto .texto .nombre{
+        font-size: 30px;
+    }
+
+    header .contenedor-texto .texto .profesion{
+        font-size: 18px;
+    }
+
+    .main .trabajos {
+        background: rgba(192, 45, 45, 0.1);
+        padding: 0px;
+    }
+
+    .main .habilidades .contenedor-habilidades .habilidad{
+        width: 25%;
+        padding: 0px 15px;
+    }
+
+    footer .redes-sociales .contenedor{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    footer .contacto .formulario input[type="text"], input[type="email"] {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    footer .info{
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
