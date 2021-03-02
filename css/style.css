@@ -40,7 +40,7 @@ header .menu{
 }
 
 header .menu a{
-    color: white;
+    color: #d0e8f2;
     padding: 9px;
     text-decoration: none;
     border-bottom: 2px solid transparent;
@@ -122,7 +122,7 @@ header .contenedor-texto .texto .profesion{
 }
 
 .main .acerca-de .texto{
-    color: #dddddd;
+    color: white;
     font-size: 1.2em;
     line-height: 30px ;
     font-weight: 500;
@@ -131,7 +131,7 @@ header .contenedor-texto .texto .profesion{
 }
 
 .main .acerca-de .contenedor .texto .titulo{
-    color: #dddddd;
+    color: #42E2B8;
     font-size: 34px;
     font-weight:bold;
     margin-bottom: 40px;
@@ -148,7 +148,7 @@ header .contenedor-texto .texto .profesion{
 }
 
 .main .trabajos .titulo{
-    color:#dddddd;
+    color:#42E2B8;
     font-size: 34px;
     font-weight:bold;
     margin-bottom: 40px;
@@ -165,13 +165,13 @@ header .contenedor-texto .texto .profesion{
 
 .main .trabajos .contenedor-proyectos .proyecto{
     width: 50%;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .thumb{
     width: 100%;
-    margin-bottom: 70px;
+    margin-bottom: 25px;
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .thumb img{
@@ -181,36 +181,51 @@ header .contenedor-texto .texto .profesion{
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .descripcion{
-    text-align: center;
+    text-align: center; 
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .descripcion .nombre-proyecto{
+    background: #171515;
+    width: auto;
     font-weight: bold;
     color: #d0e8f2;
     font-size: 25px;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: -4px 4px 0 white;
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .descripcion .categoria{
     font-size: 14px;
     color:#d0e8f2;
+    margin-bottom: 25px;
+    margin-top: -10px;
 }
 
 
 .main .trabajos .contenedor-proyectos .proyecto .descripcion a{
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:#222831;
-    background: #dddddd;
+    color:#42E2B8;
     padding: 10px ;
     border-radius: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    border: 2px solid #42E2B8;
+}
 
+.main .trabajos .contenedor-proyectos .proyecto .descripcion a:hover{
+    color:#42E2B8;
+    background: #171515;
+    border: 2px solid #42E2B8;
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .descripcion i{
-    color: gray;
-    font-size: 20px;
+    color: #42E2B8;
+    font-size: 18px;
     display: inline-block;
 }
+
 
 
 /* --- --- HABILIDADES --- --- */
@@ -225,10 +240,10 @@ header .contenedor-texto .texto .profesion{
 }
 
 .main .habilidades .titulo{
-    color: rgb(192, 45, 45);
+    color: #42E2B8;
     font-size: 34px;
-    font-weight:lighter;
-    margin-bottom: 40px;
+    font-weight:bold;
+    margin-bottom: 70px;
     text-align: center;
 }
 
@@ -261,7 +276,7 @@ header .contenedor-texto .texto .profesion{
 
 .main .habilidades .contenedor-habilidades .habilidad .descripcion .nombre-proyecto{
     font-weight: bolder;
-    color: #c02d2d;
+    color: #d0e8f2;
 }
 
 .main .habilidades .contenedor-habilidades .habilidad .descripcion .categoria{
@@ -286,10 +301,10 @@ footer .contacto{
 }
 
 footer .contacto .titulo{
-    color: rgb(192, 45, 45);
+    color: #42E2B8;
     font-size: 34px;
-    font-weight:lighter;
-    margin-bottom: 40px;
+    font-weight:bold;
+    margin-bottom: px;
     text-align: center;
 }
 
@@ -324,21 +339,22 @@ footer .contacto .formulario textarea{
 }
 
 footer .contacto .formulario .boton{
-    margin: auto;
-    background: rgb(192, 45, 45);
-    color: cornsilk;
+    width: 100%;
+    background: #222831;
+    color:#42E2B8;
     border:none;
     border-radius: 25px;
     padding: 15px 50px;
     cursor: pointer;
-    border: 1px solid rgb(192, 45, 45);
+    border: 2px solid #42E2B8;
+    font-weight: 700;
 }
 
 footer .contacto .formulario .boton:hover{
     transition: 0.5s;
-    background:rgba(192, 45, 45, 0.1);
-    border: 1px solid rgb(192, 45, 45);
-    color: rgb(192, 45, 45) ;
+    background:#42E2B8;
+    border: 2px solid #222831;
+    color: #222831 ;
 }
 
 
