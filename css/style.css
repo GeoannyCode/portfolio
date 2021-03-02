@@ -165,13 +165,14 @@ header .contenedor-texto .texto .profesion{
 
 .main .trabajos .contenedor-proyectos .proyecto{
     width: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .thumb{
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .thumb img{
@@ -196,7 +197,7 @@ header .contenedor-texto .texto .profesion{
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .descripcion .categoria{
-    font-size: 14px;
+    font-size: 15px;
     color:#d0e8f2;
     margin-bottom: 25px;
     margin-top: -10px;
@@ -285,13 +286,9 @@ header .contenedor-texto .texto .profesion{
 }
 
 /* --- --- FOOTER --- --- */
-footer{
-    
-
-}
 
 footer .contenedor{
-    width: 60%;
+    width: 80%;
     padding: 25px;
     border-radius: 5px;
 }
@@ -425,16 +422,105 @@ footer .info{
     }
 
     .main .trabajos  .contenedor-proyectos .proyecto{
-        width: 46%;
+        width: 100%;
     }
 
     .main .habilidades .contenedor-habilidades .habilidad{
         width: 20%;
-        padding: 0px 15px;
+        padding: 0px 20px;
     }
+
+    .main .trabajos {
+        /*background: rgba(192, 45, 45, 0.1);*/
+        padding: 20px;
+    }
+    
+    .main .trabajos .contenedor{
+        overflow: hidden;
+    }
+    
+    .main .trabajos .titulo{
+        color:#42E2B8;
+        font-weight:bold;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    
+    .main .trabajos .contenedor-proyectos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    
+    .main .trabajos .contenedor-proyectos .proyecto .thumb{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .main .trabajos .contenedor-proyectos .proyecto .thumb img{
+        width: 100%;
+        vertical-align: top;
+        border-radius: 5px;
+    }
+    
+    .main .trabajos .contenedor-proyectos .proyecto .descripcion{
+        text-align: center; 
+    }
+    
+    .main .trabajos .contenedor-proyectos .proyecto .descripcion .nombre-proyecto{
+        background: #171515;
+        width: 90%;
+        font-weight: bold;
+        color: #d0e8f2;
+        font-size: 25px;
+        display: inline-block;
+        padding: 10px;
+        box-shadow: -4px 4px 0 white;
+        margin-top: 0px;
+    }
+    
+    .main .trabajos .contenedor-proyectos .proyecto .descripcion .categoria{
+        font-size: 15px;
+        color:#d0e8f2;
+        margin-bottom: 20px;
+        margin-top: -10px;
+    }
+    
+    
+    .main .trabajos .contenedor-proyectos .proyecto .descripcion a{
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color:#42E2B8;
+        padding: 10px;
+        border-radius: 30px;
+        font-weight: 500;
+        margin-top: 20px;
+        border: 2px solid #42E2B8;
+        display: block;
+        margin: 20px 20px;
+    }
+    
+    .main .trabajos .contenedor-proyectos .proyecto .descripcion a:hover{
+        color:#42E2B8;
+        background: #171515;
+        border: 2px solid #42E2B8;
+        display: block;
+    }
+    
+    .main .trabajos .contenedor-proyectos .proyecto .descripcion i{
+        color: #42E2B8;
+        font-size: 18px;
+        display: inline-block;
+    }
+
+    /* --- --- FOOTER --- --- */
 
     footer .contenedor{
         width: 90%;
+        padding: 25px;
+        border-radius: 5px;
     }
 }
 
@@ -454,8 +540,63 @@ footer .info{
     }
 
     .main .trabajos {
-        background: rgba(192, 45, 45, 0.1);
         padding: 0px;
+    }
+
+    .main .trabajos .contenedor-proyectos .proyecto{
+        width: 100%;
+        margin-bottom: 25px;
+        
+    }
+
+    .main .trabajos .contenedor-proyectos .proyecto .descripcion .nombre-proyecto{
+        background: #171515;
+        width: 90%;
+        font-weight: bold;
+        color: #d0e8f2;
+        font-size: 25px;
+        display: inline-block;
+        padding: 10px;
+        box-shadow: -4px 4px 0 white;
+        margin-top: 20px;
+    }
+
+    .main .trabajos .contenedor-proyectos .proyecto .descripcion .categoria{
+        font-size: 15px;
+        color:#d0e8f2;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    
+    
+    .main .trabajos .contenedor-proyectos .proyecto .thumb{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .main .trabajos .contenedor-proyectos .proyecto .descripcion a{
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color:#42E2B8;
+        padding: 10px ;
+        border-radius: 30px;
+        font-weight: 500;
+        margin: 10px 15px;
+        border: 2px solid #42E2B8;
+        display: block;
+    }
+    
+    .main .trabajos .contenedor-proyectos .proyecto .descripcion a:hover{
+        color:#42E2B8;
+        background: #171515;
+        border: 2px solid #42E2B8;
+        display: block;
+    }
+    
+    .main .trabajos .contenedor-proyectos .proyecto .descripcion i{
+        color: #42E2B8;
+        font-size: 18px;
+        display: inline-block;
     }
 
     .main .habilidades .contenedor-habilidades .habilidad{
