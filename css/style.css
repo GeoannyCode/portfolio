@@ -7,8 +7,12 @@ html{
 }
 
 body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Oxygen', sans-serif;;
     font-size: 16px;
+    
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  
 }
 
 .contenedor{
@@ -21,28 +25,37 @@ body{
 /* --- --- HEADER --- --- */
 
 header{
-    background:url('/img/fondo.png') rgb(100, 61, 53);
+    background:url('/img/programming-1873854_1920.png') rgb(100, 61, 53 );
     background-repeat: no-repeat;
     background-position: center;
+    /*background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
     max-height: 450px;
 }
 
 header .menu{
-    margin: 40px 0;
+    margin: 20px 0;
     text-align: right;
 }
 
 header .menu a{
-    margin: 0 20px;
-    color: whitesmoke;
-    padding-bottom: 9px;
+    color: white;
+    padding: 9px;
     text-decoration: none;
     border-bottom: 2px solid transparent;
     font-size: 1em;
+    margin-bottom: 5px;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    line-height: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 header .menu a:hover{
-    border-bottom: 2px solid whitesmoke;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 header .contenedor-texto{
@@ -54,11 +67,16 @@ header .contenedor-texto{
 }
 
 header .contenedor-texto .texto{
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    border-radius: 3px;
     display: inline-block;
     padding: 20px 60px;
     text-align: center;
+    
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    line-height: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 header .contenedor-texto .texto h1{
@@ -79,11 +97,12 @@ header .contenedor-texto .texto nombre{
 }
 
 header .contenedor-texto .texto .profesion{
-    font-size: 25px;
+    font-size: 20px;
     line-break: 25px;
 }
 
 /* --- --- MAIN --- --- */
+
 .main .contenedor{
     overflow: visible;
 }
@@ -99,27 +118,28 @@ header .contenedor-texto .texto .profesion{
 .main .acerca-de .foto img{
     vertical-align: top;
     border-radius: 50%;
-    border: 10px solid rgba(255, 255, 255, 0.2)
+    border: 10px solid rgba(255, 255, 255, 0.1)
 }
 
 .main .acerca-de .texto{
-    color: #643E35;
-    font-size: 1em;
+    color: #dddddd;
+    font-size: 1.2em;
     line-height: 30px ;
+    font-weight: 500;
     width: 80%;
     margin: 25px auto;
 }
 
 .main .acerca-de .contenedor .texto .titulo{
-    color: #c02d2d;
+    color: #dddddd;
     font-size: 34px;
-    font-weight:lighter;
+    font-weight:bold;
     margin-bottom: 40px;
     text-align: center;
 }
 
 .main .trabajos {
-    background: rgba(192, 45, 45, 0.1);
+    /*background: rgba(192, 45, 45, 0.1);*/
     padding: 25px;
 }
 
@@ -128,11 +148,12 @@ header .contenedor-texto .texto .profesion{
 }
 
 .main .trabajos .titulo{
-    color: rgb(192, 45, 45);
+    color:#dddddd;
     font-size: 34px;
-    font-weight:lighter;
+    font-weight:bold;
     margin-bottom: 40px;
     text-align: center;
+    margin-bottom: 70px;
 }
 
 .main .trabajos .contenedor-proyectos{
@@ -143,13 +164,14 @@ header .contenedor-texto .texto .profesion{
 }
 
 .main .trabajos .contenedor-proyectos .proyecto{
-    width: 23%;
+    width: 50%;
     margin-bottom: 40px;
+    
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .thumb{
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 70px;
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .thumb img{
@@ -163,39 +185,37 @@ header .contenedor-texto .texto .profesion{
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .descripcion .nombre-proyecto{
-    font-weight: bolder;
-    color: #c02d2d;
+    font-weight: bold;
+    color: #d0e8f2;
+    font-size: 25px;
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .descripcion .categoria{
     font-size: 14px;
-    color: gray;
+    color:#d0e8f2;
 }
 
-.main .trabajos .contenedor-proyectos .proyecto .descripcion button{
-    background: gray;
-    border-radius: 5px;
-    padding: 5px;
-    font-weight:lighter;
-}
 
 .main .trabajos .contenedor-proyectos .proyecto .descripcion a{
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: aliceblue;
+    color:#222831;
+    background: #dddddd;
+    padding: 10px ;
+    border-radius: 30px;
+
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .descripcion i{
     color: gray;
     font-size: 20px;
-    padding-left: 15px;
+    display: inline-block;
 }
 
 
 /* --- --- HABILIDADES --- --- */
 
 .main .habilidades {
-    background: white;
     padding: 25px 0;
     padding-bottom: 60px;
 }
@@ -251,7 +271,8 @@ header .contenedor-texto .texto .profesion{
 
 /* --- --- FOOTER --- --- */
 footer{
-    background:  rgba(100, 61, 53, 0.1);
+    
+
 }
 
 footer .contenedor{
@@ -322,7 +343,6 @@ footer .contacto .formulario .boton:hover{
 
 
 footer .redes-sociales{
-    background: rgba(90, 90, 90, 1);
     padding: 25px;
     display: flex;
     justify-content: center;
@@ -366,7 +386,6 @@ footer .redes-sociales a.i{
 }
 
 footer .text{
-    background: rgba(90, 90, 90, 1); 
     padding:0;
     margin: 0px 0;
     color: whitesmoke;
@@ -375,7 +394,6 @@ footer .text{
 }
 
 footer .info{
-    background: rgba(90, 90, 90, 1);
     width:100% ;
     padding: 1px 0;
     margin: 0px 0;
