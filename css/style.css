@@ -9,10 +9,9 @@ html{
 body{
     font-family: 'Oxygen', sans-serif;;
     font-size: 16px;
-    
     background: #0F2027;
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 }
 
 .contenedor{
@@ -25,7 +24,7 @@ body{
 /* --- --- HEADER --- --- */
 
 header{
-    background:url('/img/programming-1873854_1920.png') rgb(100, 61, 53 );
+    background:url('/img/code.jpg') #0F2027;
     background-repeat: no-repeat;
     background-position: center;
     /*background: #0F2027;
@@ -70,7 +69,6 @@ header .contenedor-texto .texto{
     display: inline-block;
     padding: 20px 60px;
     text-align: center;
-    
 
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
@@ -166,7 +164,6 @@ header .contenedor-texto .texto .profesion{
 .main .trabajos .contenedor-proyectos .proyecto{
     width: 50%;
     margin-bottom: 50px;
-    
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .thumb{
@@ -182,7 +179,7 @@ header .contenedor-texto .texto .profesion{
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .descripcion{
-    text-align: center; 
+    text-align: center;
 }
 
 .main .trabajos .contenedor-proyectos .proyecto .descripcion .nombre-proyecto{
