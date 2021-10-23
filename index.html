@@ -24,8 +24,8 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
-                                <i class="uil uil-estate nav__icon"></i> Home
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon "></i> Home
                             </a>
                         </li>
                         <li class="nav__item">
@@ -76,12 +76,12 @@
                                 <i class="uil uil-linkedin-alt"></i>
                             </a>
 
-                            <a href="https://twitter.com/dgbracero" target="_blank" class="home__social-icon">
-                                <i class="uil uil-twitter-alt"></i>
-                            </a>
-
                             <a href="https://github.com/dgbracero" target="_blank" class="home__social-icon">
                                 <i class="uil uil-github-alt"></i>
+                            </a>
+
+                            <a href="https://twitter.com/dgbracero" target="_blank" class="home__social-icon">
+                                <i class="uil uil-twitter-alt"></i>
                             </a>
                         </div>
 
@@ -797,15 +797,108 @@
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
 
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-whatsapp contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">985-816-922</span>
+                            </div>
+                        </div>
 
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">diegobracero@hotmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Quito - Ecuador</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Project</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Diego</h1>
+                        <span class="footer__subtitle">Fronend developer</span>
+                    </div>
 
-            
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#services" class="footer__link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contactme</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/dgbracero" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://github.com/dgbracero" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+
+                        <a href="https://twitter.com/dgbracero" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <p class="footer__copy">&#169; diegobracero.dev All right reserved <br>
+                    Made with ❤️ in Ecuador
+                </p>
+            </div>
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
