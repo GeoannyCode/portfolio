@@ -323,6 +323,10 @@ img{
     margin-bottom: var(--mb-2);
 }
 
+.button:hover .button__icon{
+    transform: translateX( .25rem);
+}
+
 .home__scroll{
     display: none;
 }
@@ -788,6 +792,7 @@ img{
 /*==================== PROJECT IN MIND ====================*/
 .project{
     text-align: center;
+    display: grid;
 }
 
 .project__bg{
@@ -817,7 +822,6 @@ img{
 .project__img{
     width: 232px;
     justify-content: center;
-    display: none;
 }
 /*==================== TESTIMONIAL ====================*/
 .testimonial__data,
