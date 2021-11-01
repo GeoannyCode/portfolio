@@ -77,9 +77,10 @@ body.dark-theme{
     --text-color: hsl(var(--hue-color), 8%, 75%);
     --input-color: hsl(var(--hue-color), 29%, 16%);
     --body-color: hsl(var(--hue-color), 28%, 12%);
-    --container-color: hsl(var(--hue-color, 29%, 16%));
+    --container-color: hsl(212, 32%, 8%);
     --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+    --container-color-2: hsl(var(--hue-color, 29%, 16%));
 }
 
 
@@ -379,10 +380,12 @@ img{
     color: var(--first-color);
 }
 
-.button--white:hover{
+.button--white:hover {
     background-color: #FFF;
     color: var(--first-color-alt);
 }
+
+
 
 .button--flex{
     display: inline-flex;
@@ -421,6 +424,8 @@ img{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: var(--mb-2-5);
+
+    display: none;
 }
 
 .about__info-title{
@@ -443,6 +448,9 @@ img{
 .about__buttons{
     display: flex;
     justify-content: center;
+
+    /* CV-Button */
+    display: none; 
 }
 /*==================== SKILLS ====================*/
 .skills__container{
@@ -473,6 +481,8 @@ img{
 .skills__subtitle{
     font-size: var(--small-font-size);
     color: var(--text-color-light);
+
+    display: none;
 }
 
 .skills__arrow{
@@ -498,7 +508,7 @@ img{
 
 .skills__bar,
 .skills__percentage{
-    height: 5px;
+    height: 2px;
     border-radius: .25rem;
 }
 
@@ -509,42 +519,11 @@ img{
 .skills__percentage{
     display: block;
     background-color: var(--first-color);
+    width: 100%;
 }
 
-.skills__html{
-    width: 90%;
-}
-.skills__css{
-    width: 80%;
-}
-.skills__js{
-    width: 70%;
-}
-.skills__react{
-    width: 35%;
-}
-
-.skills__php{
-    width: 80%;
-}
-.skills__node{
-    width: 70%;
-}
-.skills__firebase{
-    width: 90%;
-}
-.skills__python{
-    width: 55%;
-}
-
-.skills__figma{
-    width: 90%;
-}
-.skills__sketch{
-    width: 85%;
-}
-.skills__photoshop{
-    width: 85%;
+.skills__number{
+    display: none;
 }
 
 .skills__close .skills__list{
@@ -640,7 +619,7 @@ img{
 
 .services__content{
     position: relative;
-    background-color: var(--container-color);
+    background-color: var(--container-color-2);
     padding: 3.5rem .5rem 1.25rem 1.5rem;
     border-radius: .25rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
@@ -792,13 +771,11 @@ img{
 /*==================== PROJECT IN MIND ====================*/
 .project{
     text-align: center;
-    display: grid;
 }
 
 .project__bg{
     background-color: var(--first-color-second);
     padding-top: 3rem;
-    padding-bottom: 1rem;
 }
 
 .project__title{
@@ -815,18 +792,21 @@ img{
     color: #FFF;
 }
 
-.button--white:hover .project__icon{
-    transform: translateX( .25rem);
-}
-
 .project__img{
     width: 232px;
-    justify-content: center;
+    justify-self: center;
 }
 /*==================== TESTIMONIAL ====================*/
+.testimonial{
+    /* Important*/
+    display: none;
+}
+
+
 .testimonial__data,
 .testimonial__header{
     display: flex;
+    
 }
 
 .testimonial__data{
@@ -954,7 +934,7 @@ img{
 }
 
 .footer__copy{
-    font-size: var(--smaller-font-size);
+    /* font-size: var(--small-font-size); */
     text-align: center;
     color: var(--text-color);
     margin-top: var(--mb-3);
@@ -1056,6 +1036,7 @@ img{
     .testimonial__header{
         flex-direction: column;
         align-items: center;
+        
     }
 
     .testimonial__img{
@@ -1066,6 +1047,7 @@ img{
     .testimonial__data,
     .testimonial__description{
         text-align: center;
+        
     }
 }
 
@@ -1178,9 +1160,9 @@ img{
     .about__description{
         text-align: initial;
     }
-    .about__info{
+    /* .about__info{
         justify-content: space-between;
-    }
+    } */
     .about__buttons{
         justify-content: initial;
     }
