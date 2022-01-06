@@ -26,8 +26,8 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class="uil uil-estate nav__icon "></i> Home
+                            <a href="#home" class="nav__link active-link" data-section="navbar" data-value="home">
+                                <i class="uil uil-estate nav__icon" ></i> Home
                             </a>
                         </li>
                         <li class="nav__item">
@@ -61,8 +61,12 @@
 
                 <div class="nav__btns">
                     <!-- Theme change button -->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
                     
+                    <div id="flags" class="flags">
+                        <div class="flags__item" data-language="en">🇺🇸</div>
+                        <div class="flags__item" data-language="es">🇪🇸</div>
+                    </div>
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
@@ -109,7 +113,7 @@
                         </div>
 
                         <div class="home__data">
-                            <h1 class="home__title">Hi, I'm Diego Geovanny</h1>
+                            <h1 class="home__title" data-section="home" data-value="title">Hi, I'm Diego Geovanny</h1>
                             <h3 class="home__subtitle">Frontend developer</h3>
                             <p class="home__description"> 
                                 with extensive knowledge and years of experience, working in web technologies and UI/UX design, delivering quality work.

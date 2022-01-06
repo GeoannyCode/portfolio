@@ -1,0 +1,17 @@
+{
+    "navbar":{
+        "navlogo": "GeovannyDEV",
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "contactme": "Contactme"
+    },
+    "home":{
+        "title": "Hi, I'm Diego Geovanny",
+        "subtitle": "Frontend developer",
+        "description": "with extensive knowledge and years of experience, working in web technologies and UI/UX design, delivering quality work.",
+        "button": "Contact Me"
+    }
+}

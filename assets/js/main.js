@@ -20,6 +20,27 @@ if(navClose){
     })
 }
 
+/*===== CHANGE LANGUAGE =====*/
+const flagsElements = document.getElementById("flags");
+const textsToChange = document.querySelectorAll("[data-section]");
+
+const changeLanguage = async (language) => {
+    const requestJson = await fetch(`./languages/${language}.json`)
+    const texts = await requestJson.json();
+
+    for(const textToChange of textsToChange){
+        const section = textToChange.dataset.section;
+        const value = textToChange.dataset.value;
+
+        textToChange.innerHTML = texts[section][value]
+    }
+};
+
+
+flagsElements.addEventListener("click", (e)=>{
+    changeLanguage(e.target.dataset.language);
+});
+
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
 
