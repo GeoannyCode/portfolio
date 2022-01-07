@@ -912,7 +912,8 @@ img{
 button{
     border: none;
     font-weight: var(--font-medium);
-    font-size: var(--small-font-size);
+    font-size: var(--small);
+    cursor: pointer;
 }
 /*==================== FOOTER ====================*/
 .footer{
