@@ -14,5 +14,32 @@
         "description": "Cuento con amplios conocimientos y experiencia trabajando en tecnologías web y diseño UI / UX, entregando trabajos de calidad.",
         "button": "Contactar <i class='uil uil-message button__icon'></i>",
         "scroll": "Desplazarse"
+    },
+    "about":{
+        "title": "Acerca de mí",
+        "subtitle": "Mi introducción",
+        "description": "Técnico en Administración de Sistemas Computacionales y estudiante de Pedagogía Informática, apasionado por el desarrollo de software y la tecnología."
+    },
+    "skills":{
+        "title": "Habilidades",
+        "subtitle": "Mi nivel técnico",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "designer": "Diseño",
+        "databases": "Bases de datos"
+    },
+    "qualification":{
+        "title": "Experiencia profesional",
+        "subtitle":"Mi formación",
+        "education": "<i class='uil uil-graduation-cap qualification__icon'></i>Educación",
+        "work": "<i class='uil uil-bag qualification__icon'></i>Trabajo",
+        "systems":"Técnico de Sistemas",
+        "college": "Ecuador - Colegio",
+        "pedagogy": "Pedagogía Informática",
+        "university": "Ecuador - Universidad",
+        "web": "Desarrollo Web",
+        "company":"Aquí podría estar tu empresa",
+        "your": "Tu empresa"
     }
+
 }
