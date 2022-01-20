@@ -40,6 +40,29 @@
         "web": "Desarrollo Web",
         "company":"Aquí podría estar tu empresa",
         "your": "Tu empresa"
+    },
+    "services":{
+        "title": "Servicios",
+        "subtitle": "Te ofrezco",
+        "wp": "Desarrollo <br> con WordPress",
+        "button": "Ver Más <i class='uil uil-arrow-right button__icon'></i>",
+        "wp-service1": "Blog o web personal.",
+        "wp-service2": "Web corporativa.",
+        "wp-service3": "eCommerce.",
+        "wp-service4": "Catálogo de productos",
+        "wp-service5": "Portafolio de tu trabajo.",
+        "wp-service6": "Web de afiliación.",
+        "wp-service7": "Web educativa",
+        "fd": "Desarrollo <br> Frontend",
+        "fd-service1": "Desarrollo con HTML, CSS y JavaScript.",
+        "fd-service2": "Mantenimiento y optimizacion de tu web.",
+        "fd-service3": "Implementacion de diseño responsivo.",
+        "fd-service4": "Optimización en motores de busqueda.",
+        "ui": "Diseño <br> UI/UX",
+        "ui-service1": "Desarrollo de prototipos.",
+        "ui-service2": "Diseño de elementos (botones, formularios).",
+        "ui-service3": "Guías de estilo (paletas de colores, fuentes).",
+        "ui-service4": "Desarrollo de productos digitales."
     }
 
 }

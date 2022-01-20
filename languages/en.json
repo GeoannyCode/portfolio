@@ -40,5 +40,29 @@
         "web": "Web Development",
         "company":"Your company can be here",
         "your": "Your company"
+    },
+    "services":{
+        "title": "Services",
+        "subtitle": "What i offer",
+        "wp": "Development <br> with WordPress",
+        "button": "View More <i class='uil uil-arrow-right button__icon'></i>",
+        "wp-service1": "Blog or personal website.",
+        "wp-service2": "Corporate web.",
+        "wp-service3": "eCommerce.",
+        "wp-service4": "Product catalog.",
+        "wp-service5": "Portfolio of your work.",
+        "wp-service6": "Affiliate website.",
+        "wp-service7": "Educational website.",
+        "fd": "Frontend <br> Development",
+        "fd-service1": "Development with HTML, CSS and JavaScript.",
+        "fd-service2": "Website maintenance and optimization.",
+        "fd-service3": "Responsive design implementation.",
+        "fd-service4": "Search engine optimization.",
+        "ui": "UI/UX <br> Designer",
+        "ui-service1": "Prototype development.",
+        "ui-service2": "Design of elements (buttons, forms).",
+        "ui-service3": "Style guides (color palettes, fonts).",
+        "ui-service4": "Development of digital products."
     }
+
 }
