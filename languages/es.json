@@ -63,6 +63,43 @@
         "ui-service2": "Diseño de elementos (botones, formularios).",
         "ui-service3": "Guías de estilo (paletas de colores, fuentes).",
         "ui-service4": "Desarrollo de productos digitales."
+    },
+    "portfolio":{
+        "title": "Portafolio",
+        "subtitle": "Proyectos destacados",
+        "project1": "Pagina web para empresa de Marketing Digital. <br> <code>HTML | Bootstrap | jQuery</code>",
+        "project2": "Lista de tareas - CRUD <br> <code>HTML | Bootstrap | JavaScript</code>",
+        "project3": "Página web para cafetería. <br> <code>HTML | Bootstrap | jQuery</code>",
+        "project4": "",
+        "project5": ""
+    },
+    "offer":{
+        "title": "Tienes un proyecto en mente",
+        "description": "Enviame un mensaje y recibe 30% de descuento en tu proyecto.",
+        "button": "Ir al formulario  <i class='uil uil-message project__icon button__icon'></i>"
+    },
+    "testimonials":{
+
+    },
+    "contact":{
+        "title": "Contacto",
+        "subtitle":"Envíame un mensaje",
+        "call": "WhatsApp",
+        "email":"Correo",
+        "location": "Localidad",
+        "l-name": "Nombre",
+        "l-email": "Correo",
+        "l-project": "Proyecto",
+        "l-message": "Mensaje",
+        "button": "Enviar propuesta <i class='uil uil-message button__icon'></i>"
+    },
+    "footer":{
+        "subtitle": "Desarrollador Frontend",
+        "f-link1": "Servicios",
+        "f-link2": "Portafolio",
+        "f-link3": "Contacto",
+        "copy": "&#169; geovannydev.me All right reserved <br> Echo con ❤️ en Ecuador"
     }
+    
 
 }

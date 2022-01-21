@@ -63,6 +63,42 @@
         "ui-service2": "Design of elements (buttons, forms).",
         "ui-service3": "Style guides (color palettes, fonts).",
         "ui-service4": "Development of digital products."
+    },
+    "portfolio":{
+        "title": "Portfolio",
+        "subtitle": "Most recent work",
+        "project1": "Website for digital marketing company <br> <code>HTML | Bootstrap | jQuery</code>",
+        "project2": "To do list - CRUD.<br> <code>HTML | Bootstrap | JavaScript</code>",
+        "project3": "Coffee shop website. <br> <code>HTML | Bootstrap | jQuery</code>",
+        "project4": "",
+        "project5": ""
+    },
+    "offer":{
+        "title": "You have a new project",
+        "description": "Contact me now and get 30% discount on your new project.",
+        "button": "Contact Me <i class='uil uil-message project__icon button__icon'></i>"
+    },
+    "testimonials":{
+
+    },
+    "contact":{
+          "title": "Contact Me",
+          "subtitle":"Get in touch",
+          "call": "WhatsApp",
+          "email":"Email",
+          "location": "Location",
+          "l-name": "Name",
+          "l-email": "Email",
+          "l-project": "Project",
+          "l-message": "Message",
+          "button": "Send Message <i class='uil uil-message button__icon'></i>"
+    },
+    "footer":{
+        "subtitle": "Frontend developer",
+        "f-link1": "Services",
+        "f-link2": "Portfolio",
+        "f-link3": "Contactme",
+        "copy": "&#169; geovannydev.me All right reserved <br> Made with ❤️ in Ecuador"
     }
 
 }
