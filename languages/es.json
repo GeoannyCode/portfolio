@@ -10,22 +10,22 @@
     },
     "home":{
         "title": "Hola, soy Diego Geovanny",
-        "subtitle": "Desarrollador frontend",
-        "description": "Cuento con amplios conocimientos y experiencia trabajando en tecnologías web y diseño UI / UX, entregando trabajos de calidad.",
+        "subtitle": "Adm. sistemas y Programador",
+        "description": "Cuento con amplios conocimientos en tecnologías web y administración de sistemas, déjame demostrarte que puedo generar un impacto positivo en tu equipo.",
         "button": "Contactar <i class='uil uil-message button__icon'></i>",
         "scroll": "Desplazarse"
     },
     "about":{
         "title": "Acerca de mí",
         "subtitle": "Mi introducción",
-        "description": "Técnico en Administración de Sistemas Computacionales y estudiante de Pedagogía Informática, apasionado por el desarrollo de software y la tecnología."
+        "description": "Técnico en Administración de Sistemas Computacionales y estudiante de Pedagogía Informática, apasionado por el desarrollo de software, emprendimiento y la ciencia ficción."
     },
     "skills":{
         "title": "Habilidades",
         "subtitle": "Mi nivel técnico",
         "frontend": "Frontend",
         "backend": "Backend",
-        "designer": "Diseño",
+        "designer": "Adm. Sistemas",
         "databases": "Bases de datos"
     },
     "qualification":{
