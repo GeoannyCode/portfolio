@@ -190,13 +190,14 @@ window.addEventListener('scroll', scrollUp)
 
 /*==================== DARK LIGHT THEME ====================*/ 
 
-
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'uil-sun'
 
 const selectedTheme = localStorage.getItem('selected-theme')
 const selectedIcon = localStorage.getItem('selected-icon')
+
+
 
 const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'ligth'
 const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun'
