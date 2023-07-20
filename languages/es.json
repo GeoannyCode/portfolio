@@ -10,22 +10,22 @@
     },
     "home":{
         "title": "Hola, soy Diego Geovanny",
-        "subtitle": "Adm. sistemas y Programador",
-        "description": "Cuento con amplios conocimientos en tecnologías web y administración de sistemas, déjame demostrarte que puedo generar un impacto positivo en tu equipo.",
+        "subtitle": "Desarrollador Fullstack",
+        "description": "Soy un desarrollador de software con amplio conocimiento en tecnologías de frontend y backend. Creo soluciones innovadoras, desde interfaces elegantes, arquitecturas de servidor hasta aplicaciones móviles. Enfocado en el aprendizaje continuo, ofrezco soluciones personalizadas y colaboro efectivamente en equipos multidisciplinarios.",
         "button": "Contactar <i class='uil uil-message button__icon'></i>",
         "scroll": "Desplazarse"
     },
     "about":{
         "title": "Acerca de mí",
         "subtitle": "Mi introducción",
-        "description": "Técnico en Administración de Sistemas Computacionales y estudiante de Pedagogía Informática, apasionado por el desarrollo de software, emprendimiento y la ciencia ficción."
+        "description": "Técnico en Administración de Sistemas Computacionales y Licenciado en Pedagogía Informática, apasionado por el desarrollo de software, emprendimiento y la ciencia ficción."
     },
     "skills":{
         "title": "Habilidades",
         "subtitle": "Mi nivel técnico",
         "frontend": "Frontend",
         "backend": "Backend",
-        "designer": "Adm. Sistemas",
+        "designer": "Móvil",
         "databases": "Bases de datos"
     },
     "qualification":{
@@ -53,22 +53,22 @@
         "wp-service5": "Portafolio de tu trabajo.",
         "wp-service6": "Web de afiliación.",
         "wp-service7": "Web educativa",
-        "fd": "Desarrollo <br> Frontend",
+        "fd": "Desarrollo <br> Web",
         "fd-service1": "Desarrollo con HTML, CSS y JavaScript.",
         "fd-service2": "Mantenimiento y optimizacion de tu web.",
         "fd-service3": "Implementacion de diseño responsivo.",
         "fd-service4": "Optimización en motores de busqueda.",
-        "ui": "Diseño <br> UI/UX",
+        "ui": "Desarrollo <br> Móvil",
         "ui-service1": "Desarrollo de prototipos.",
-        "ui-service2": "Diseño de elementos (botones, formularios).",
-        "ui-service3": "Guías de estilo (paletas de colores, fuentes).",
-        "ui-service4": "Desarrollo de productos digitales."
+        "ui-service2": "Desarrollo de aplicaciones nativas para Android con Kotlin.",
+        "ui-service3": "Desarrollo multiplataforma con React Native.",
+        "ui-service4": "Asesoramiento técnico y consultoría."
     },
     "portfolio":{
         "title": "Portafolio",
         "subtitle": "Proyectos destacados",
         "project1": "Pagina web para empresa de Marketing Digital. <br> <code>HTML | Bootstrap | jQuery</code>",
-        "project2": "Lista de tareas - CRUD <br> <code>HTML | Bootstrap | JavaScript</code>",
+        "project2": "React Todo List es una aplicación web fácil de usar diseñada para ayudar a los usuarios a gestionar sus tareas de manera eficiente.<br> <code>React</code>",
         "project3": "Página web para cafetería. <br> <code>HTML | Bootstrap | jQuery</code>",
         "project4": "Página web responsiva. <br> <code>HTML | CSS | JavaScript",
         "project5": "Venta de servicios en el área de salud. <br> <code>WordPress"

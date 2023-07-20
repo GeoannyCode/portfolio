@@ -10,22 +10,22 @@
     },
     "home":{
         "title": "Hi, I'm Diego Geovanny",
-        "subtitle": "Sysadmin and developer",
-        "description": "I have extensive knowledge in web technologies and system administration, let me show you that I can generate a positive impact on your team.",
+        "subtitle": "Fullstack developer",
+        "description": "I am a software developer with extensive knowledge in frontend and backend technologies. I create innovative solutions, ranging from elegant interfaces, server architectures to mobile applications. Focused on continuous learning, I offer customized solutions and effectively collaborate in multidisciplinary teams.",
         "button": "Contact Me <i class='uil uil-message button__icon'></i>",
         "scroll": "Scroll down"
     },
     "about":{
         "title": "About Me",
         "subtitle": "My introduction",
-        "description": "Technician in Computer Systems Administration and Computer Pedagogy student, passionate about software development, entrepreneurship and science fiction."
+        "description": "Computer Systems Administration Technician and Bachelor in Computer Pedagogy, passionate about software development, entrepreneurship, and science fiction."
     },
     "skills":{
         "title": "Skills",
         "subtitle": "My technical level",
         "frontend": "Frontend",
         "backend": "Backend",
-        "designer": "Sysadmin",
+        "designer": "Mobile",
         "databases": "Databases"
     },
     "qualification":{
@@ -53,22 +53,22 @@
         "wp-service5": "Portfolio of your work.",
         "wp-service6": "Affiliate website.",
         "wp-service7": "Educational website.",
-        "fd": "Frontend <br> Development",
+        "fd": "Web <br> Development",
         "fd-service1": "Development with HTML, CSS and JavaScript.",
         "fd-service2": "Website maintenance and optimization.",
         "fd-service3": "Responsive design implementation.",
         "fd-service4": "Search engine optimization.",
-        "ui": "UI/UX <br> Designer",
+        "ui": "Mobile <br> Development",
         "ui-service1": "Prototype development.",
-        "ui-service2": "Design of elements (buttons, forms).",
-        "ui-service3": "Style guides (color palettes, fonts).",
-        "ui-service4": "Development of digital products."
+        "ui-service2": "Native Android App Development with Kotlin.",
+        "ui-service3": "Cross-Platform Development with React Native.",
+        "ui-service4": "Technical Consultation and Advisory."
     },
     "portfolio":{
         "title": "Portfolio",
         "subtitle": "Most recent work",
         "project1": "Website for digital marketing company <br> <code>HTML | Bootstrap | jQuery</code>",
-        "project2": "To do list - CRUD.<br> <code>HTML | Bootstrap | JavaScript</code>",
+        "project2": "React Todo List project is a user-friendly web application designed to help users manage their tasks efficiently. <br> <code>React</code>",
         "project3": "Coffee shop website. <br> <code>HTML | Bootstrap | jQuery</code>",
         "project4": "Responsive Landing Page. <br> <code>HTML | CSS | JavaScript",
         "project5": "Sale of health services. <br> <code>WordPress"
