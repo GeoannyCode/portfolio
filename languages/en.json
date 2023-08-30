@@ -10,7 +10,7 @@
     },
     "home":{
         "title": "Hi, I'm Diego Geovanny",
-        "subtitle": "Fullstack developer",
+        "subtitle": "Python and JavaScript developer",
         "description": "I am a software developer with extensive knowledge in frontend and backend technologies. I create innovative solutions, ranging from elegant interfaces, server architectures to mobile applications. Focused on continuous learning, I offer customized solutions and effectively collaborate in multidisciplinary teams.",
         "button": "Contact Me <i class='uil uil-message button__icon'></i>",
         "scroll": "Scroll down"

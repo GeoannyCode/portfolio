@@ -10,7 +10,7 @@
     },
     "home":{
         "title": "Hola, soy Diego Geovanny",
-        "subtitle": "Desarrollador Fullstack",
+        "subtitle": "Desarrollador Python y Javascript",
         "description": "Soy un desarrollador de software con amplio conocimiento en tecnologías de frontend y backend. Creo soluciones innovadoras, desde interfaces elegantes, arquitecturas de servidor hasta aplicaciones móviles. Enfocado en el aprendizaje continuo, ofrezco soluciones personalizadas y colaboro efectivamente en equipos multidisciplinarios.",
         "button": "Contactar <i class='uil uil-message button__icon'></i>",
         "scroll": "Desplazarse"
